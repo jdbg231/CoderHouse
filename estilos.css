@@ -1,0 +1,130 @@
+header {
+	width:100%;
+	overflow:hidden;
+	background:rgba(red, green, blue, alpha 0%);
+    margin-bottom:0px;
+    height: 70px;
+    padding: 10px 0px;
+}
+
+body {
+	background-image: url(/Curso\ HTML\ y\ CSS/Proyecto\ v2/Images/Index/Comp_1.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: initial;
+}
+
+ 
+header nav {
+	float: left;
+	line-height:20px;
+	margin-left: 30px;
+	display: inline-block;
+	width: 50%;
+	margin-top: 10px;
+}
+ 
+header nav a {
+	display:inline;
+    color:#282828;
+	text-decoration:none;
+	padding: 10px 5px;
+	line-height:normal;
+	font-family: 'Barlow', sans-serif;
+	font-size: 20px;
+	font-weight:normal;
+}
+ 
+header nav a:hover {
+    color:#9a9a9a;
+}
+
+.act_index {
+	display:inline;
+    color:#282828;
+	text-decoration:none;
+	padding: 10px 5px;
+	line-height:normal;
+	font-family: 'Barlow', sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+}
+
+.barra {
+	display: inline;
+	width: 50%;
+}
+
+.iconos {
+	display: inline;
+	margin-top: 10px;
+	margin-right: 30px;
+	padding: 0px 0px 0px 0px;
+	float: right;
+	color: #282828;
+	font-size: 20px;
+}
+
+.iconos:hover {
+	color:#9a9a9a;
+}
+
+h1 {
+	font-family: 'Barlow', sans-serif;
+	font-size: 110px;
+	color: #282828;
+	float: left;
+	margin-left: 30px;
+	margin-top: 5px;
+	width: 100%;
+}
+
+
+.index {
+display: inline-block;
+width: 100%;
+margin-top: 250px;
+font-family: 'Barlow', sans-serif;
+font-size: 40px;
+font-weight: medium;
+margin-left: 30px;
+margin-bottom: 5px;
+color: #282828;
+}
+
+
+.landing {
+	border-color: #282828;
+	border-radius: 5px;
+	border-bottom: 1px 1px;
+	color: #282828;
+	height: 35px;
+	width: 200px;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bolder;
+	font-size: 13px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	margin: 0px 0px 0px 30px;
+	background: transparent;
+	margin-top: 0px;
+	text-decoration: none;
+	float: left;
+}
+
+button > a {
+	text-decoration: inherit;
+	color: #282828;
+}
+
+.landing:hover {
+	color: #282828;
+	border-color: #c7c7c7;
+}
+
+.a {
+	width: 100px;
+	height: 100px;
+}
