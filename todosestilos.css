@@ -416,3 +416,16 @@ textarea{
  .ilustracion {
 	width: 100%;
 }
+
+/* Especificos UX/UI */
+
+.GGUX {
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+}
+
+.GGUX iframe {
+	grid-column: 3/3;
+}
+
+
