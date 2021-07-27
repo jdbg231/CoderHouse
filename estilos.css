@@ -8,7 +8,7 @@ header {
 }
 
 body {
-	background-image: url(/Curso\ HTML\ y\ CSS/Proyecto\ v2/Images/Index/Comp_1.gif);
+	background-image: url(/Images/Index/Comp_1.gif);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: initial;
@@ -127,4 +127,25 @@ button > a {
 .a {
 	width: 100px;
 	height: 100px;
+}
+
+
+.banner{
+	background-color: red;
+	font-size: 20px;
+}
+
+@media (min-width: 800px) {
+	.banner {
+		background-color: blue;
+		font-size:50px;
+	}
+}
+
+
+@media (min-width: 1080px) {
+	.banner {
+		background-color: yellow;
+		font-size:50px;
+	}
 }
