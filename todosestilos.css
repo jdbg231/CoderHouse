@@ -2,11 +2,11 @@ header {
 	width:100%;
 	overflow:hidden;
 	background:rgba(red, green, blue, alpha 0%);
-    margin-bottom:0px;
-    height: 70px;
-    padding: 10px 0px;
+	margin-bottom:0px;
+	height: 70px;
+	padding: 10px 0px;
 }
- 
+
 header nav {
 	float: left;
 	line-height:20px;
@@ -15,10 +15,10 @@ header nav {
 	width: 50%;
 	margin-top: 10px;
 }
- 
+
 header nav a {
 	display:inline;
-    color:#282828;
+	color:#282828;
 	text-decoration:none;
 	padding: 10px 5px;
 	line-height:normal;
@@ -26,9 +26,9 @@ header nav a {
 	font-size: 20px;
 	font-weight:normal;
 }
- 
+
 header nav a:hover {
-    color:#9a9a9a;
+	color:#9a9a9a;
 }
 
 .barra {
@@ -63,13 +63,13 @@ header nav a:hover {
 }
 
 @media (min-width: 1080px) {
-.title {
-    font-family: 'Barlow', sans-serif;
-    font-size: 80px;
-    margin-top: 100px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-}
+	.title {
+		font-family: 'Barlow', sans-serif;
+		font-size: 80px;
+		margin-top: 100px;
+		margin-bottom: 5px;
+		margin-left: 30px;
+	}
 }
 
 @media (min-width: 600px) {
@@ -84,14 +84,14 @@ header nav a:hover {
 }
 
 @media (min-width: 1080px) {
-.subtitle {
-    font-family: 'Barlow', sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    margin-top: 5px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-}
+	.subtitle {
+		font-family: 'Barlow', sans-serif;
+		font-size: 25px;
+		font-weight: 500;
+		margin-top: 5px;
+		margin-bottom: 30px;
+		margin-left: 30px;
+	}
 }
 
 @media (min-width: 600px) {
@@ -106,60 +106,60 @@ header nav a:hover {
 }
 
 @media (min-width: 1080px) {
-.titleproyectos {
-	font-family: 'Barlow', sans-serif;
-    font-size: 50px;
-    font-weight: 500;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-}
+	.titleproyectos {
+		font-family: 'Barlow', sans-serif;
+		font-size: 50px;
+		font-weight: 500;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		margin-left: 30px;
+	}
 }
 
 /* Especificos portafolio */
 
 .servicios img {
-    width: 430px;
-    display: inline-block;
-    float: left;
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 20px;
-    border-radius: 15px;
+	width: 430px;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 15px;
 	transition: all 1s;
 }
 
 .servicio1:hover {
-    background-image: url(Images/Portafolio/proyectos\ hover.png);
-    width: 440px;
-    border-radius: 15px;
+	background-image: url(Images/Portafolio/proyectos\ hover.png);
+	width: 440px;
+	border-radius: 15px;
 }
 
 .servicio2:hover {
-    background-image: url(Images/Portafolio/UX\ hover.jpg);
-    width: 440px;
-    border-radius: 15px;
+	background-image: url(Images/Portafolio/UX\ hover.jpg);
+	width: 440px;
+	border-radius: 15px;
 }
 
 .servicio3:hover {
-    background-image: url(Images/Portafolio/ilustracion\ hover.png);
-    width: 440px;
-    border-radius: 15px;
+	background-image: url(Images/Portafolio/ilustracion\ hover.png);
+	width: 440px;
+	border-radius: 15px;
 }
 
 .servicio4:hover {
-    background-image: url(Images/Portafolio/Fotografia\ hover.png);
-    width: 440px;
-    border-radius: 15px;
+	background-image: url(Images/Portafolio/Fotografia\ hover.png);
+	width: 440px;
+	border-radius: 15px;
 }
 
 .tituloservicio {
 	font-family: 'Barlow', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    margin-left: 30px;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 30px;
 }
 
 /* Especificos Contacto */
@@ -173,57 +173,57 @@ header nav a:hover {
 }
 
 .contact_subtitle {
-    width: 400px;
-    text-align: center;
-    padding: 10px;
-    margin-left: 740px;
-    margin-right: 740px;
+	width: 400px;
+	text-align: center;
+	padding: 10px;
+	margin-left: 740px;
+	margin-right: 740px;
 }
 
 .mundo {
-    padding: 10px;
-    margin-right: 800px;
-    margin-left: 800px ;
+	padding: 10px;
+	margin-right: 800px;
+	margin-left: 800px ;
 }
 
 form{
 	width:700px;
 	padding:16px;
-    padding: auto;
+	padding: auto;
 	margin-right: 700px;
-    margin-left: 700px;
-    margin-bottom: 200px;
+	margin-left: 700px;
+	margin-bottom: 200px;
 }
 
 form label{
 	width:700px;
-    margin-top: 20px;
-    font-family: 'Barlow', sans-serif;
-    font-size: 18px;
+	margin-top: 20px;
+	font-family: 'Barlow', sans-serif;
+	font-size: 18px;
 	font-weight: 500;
 	display:inline-flex;
 }
 
 form input {
 	width:500px;
-    height: 40px;
+	height: 40px;
 	padding:3px 10px;
 	border:1px solid #333333;
 	border-radius:3px;
 	margin:8px 0;
 	display:inline-block;
-    font-size: 16px;
-    font-family: 'Barlow', sans-serif;
+	font-size: 16px;
+	font-family: 'Barlow', sans-serif;
 }
 
 textarea{
-    font-family: 'Barlow', sans-serif;
-    font-size: 16px;
+	font-family: 'Barlow', sans-serif;
+	font-size: 16px;
 	width:500px;
 	height:100px;
 	border:1px solid #333333;
 	border-radius:3px;
-    padding: 3px 10px;			
+	padding: 3px 10px;
 	margin:8px 0;
 	display:block;
 }
@@ -271,10 +271,10 @@ textarea{
 
 .information {
 	font-family: 'Barlow', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
+	font-size: 20px;
+	font-weight: 500;
 	text-align: center;
-    grid-column: 3/5;
+	grid-column: 3/5;
 	grid-row: 2/2;
 	margin: 30px;
 	padding: 10px;
@@ -292,15 +292,15 @@ textarea{
 
 .habilidades div h3 {
 	font-family: 'Barlow', sans-serif;
-    font-size: 25px;
-    font-weight: 600;
+	font-size: 25px;
+	font-weight: 600;
 	text-align: left;
 }
 
 .habilidades div p {
 	font-family: 'Barlow', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+	font-size: 20px;
+	font-weight: 400;
 	text-align: left;
 	width: 900px;
 }
@@ -326,8 +326,8 @@ textarea{
 .cv h2 {
 	grid-column: 3/3;
 	font-family: 'Barlow', sans-serif;
-    font-size: 30px;
-    font-weight: 500;
+	font-size: 30px;
+	font-weight: 500;
 	text-align: center;
 }
 
@@ -362,16 +362,16 @@ textarea{
 
 .proyectos div h3 {
 	font-family: 'Barlow', sans-serif;
-    font-size: 30px;
-    font-weight: 500;
+	font-size: 30px;
+	font-weight: 500;
 	text-align: left;
 	margin-top: 20px;
 }
 
 .proyectos div h4 {
 	font-family: 'Barlow', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+	font-size: 18px;
+	font-weight: 400;
 	text-align: left;
 	margin-top: 20px;
 }
@@ -456,7 +456,7 @@ textarea{
 	max-height: 100vh;
 }
 
- .ilustracion {
+.ilustracion {
 	width: 100%;
 }
 

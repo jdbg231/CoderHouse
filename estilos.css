@@ -6,40 +6,40 @@
 }
 
 @media (min-width: 1080px) {
-header {
-	width:100%;
-	overflow:hidden;
-	background:rgba(255, 255, 255, 0);
-    margin-bottom:0;
-    height: 70px;
-    padding: 10px 0;
-}
+	header {
+		width:100%;
+		overflow:hidden;
+		background:rgba(255, 255, 255, 0);
+		margin-bottom:0;
+		height: 70px;
+		padding: 10px 0;
+	}
 }
 
 @media (min-width: 600px) {
-nav ul{
-	display: none;
-}
+	nav ul{
+		display: none;
+	}
 
-input:checked  ~ ul{
-	display:block;
-}
+	input:checked  ~ ul{
+		display:block;
+	}
 
-input {
-	display: none;
-}
+	input {
+		display: none;
+	}
 
-label {
-	display: inline-block;
-	border: 1px solid black;
-	border-radius: 5px;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	font-weight: bold;
-	text-align: center;
-	user-select: none;
-}
+	label {
+		display: inline-block;
+		border: 1px solid black;
+		border-radius: 5px;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-weight: bold;
+		text-align: center;
+		user-select: none;
+	}
 }
 
 
@@ -50,7 +50,7 @@ body {
 	background-attachment: initial;
 }
 
- 
+
 header nav {
 	float: left;
 	line-height:20px;
@@ -59,10 +59,10 @@ header nav {
 	width: 50%;
 	margin-top: 10px;
 }
- 
+
 header nav a {
 	display:inline;
-    color:#282828;
+	color:#282828;
 	text-decoration:none;
 	padding: 10px 5px;
 	line-height:normal;
@@ -70,14 +70,14 @@ header nav a {
 	font-size: 20px;
 	font-weight:normal;
 }
- 
+
 header nav a:hover {
-    color:#9a9a9a;
+	color:#9a9a9a;
 }
 
 .act_index {
 	display:inline;
-    color:#282828;
+	color:#282828;
 	text-decoration:none;
 	padding: 10px 5px;
 	line-height:normal;
@@ -116,15 +116,15 @@ h1 {
 
 
 .index {
-display: inline-block;
-width: 100%;
-margin-top: 250px;
-font-family: 'Barlow', sans-serif;
-font-size: 30px;
-font-weight: bold;
-margin-left: 30px;
-margin-bottom: 5px;
-color: #282828;
+	display: inline-block;
+	width: 100%;
+	margin-top: 250px;
+	font-family: 'Barlow', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-bottom: 5px;
+	color: #282828;
 }
 
 
