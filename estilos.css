@@ -138,9 +138,7 @@ h1 {
 	font-family: 'Barlow', sans-serif;
 	font-weight: bolder;
 	font-size: 13px;
-	border-top-width: 1px;
-	border-left-width: 1px;
-	border-right-width: 1px;
+	border-width: 1px;
 	background: transparent;
 	margin: 0 0 0 30px;
 	text-decoration: none;
